@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+
+FILE=yarn.lock
+if test -f "$FILE"; then
+    git reset yarn.lock
+fi
