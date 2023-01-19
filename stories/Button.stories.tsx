@@ -1,5 +1,5 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
-import { CoolButton } from "packages/button";
+import { CoolButton } from "@qusay77/packages-button";
 export default {
 	title: "Example/Button",
 	component: CoolButton,
